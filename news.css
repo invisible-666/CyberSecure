@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Jacques+Francois+Shadow&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NL+Guides&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Irish Grover", serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Jacques Francois Shadow", serif;
+    color: rgb(194, 194, 194);
+}
+
+header {
+    background-color: #3D149E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+nav {
+    margin: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 80px;
+}
+
+.news {
+    background-color: #2E0C7F;
+}
+
+h2 {
+    font-family: "Jacques Francois Shadow", serif;
+    color: rgb(194, 194, 194);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.banner {
+    background-image: url(images/chatgpt_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+p {
+    color: white;
+    font-size: 22px;
+    text-align: left;
+}
+
+.text {
+    padding: 10px 30px 30px 30px;
+}
+
+footer {
+    background-color: #311376;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.footertext {
+    color: white;
+    font-size: large;
+    font-family: "Jacques Francois Shadow", serif;
+    color: rgb(194, 194, 194);
+}
+
+.logof {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+    border: #311376 3px solid;
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.iconimg {
+    width: 30%;
+}
